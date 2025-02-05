@@ -1,0 +1,38 @@
+@import '../global/style.scss';
+
+
+.header{
+    &__top{
+        background: $bg;
+        padding: 9px 0 10px;
+        text-align: center;
+        p{
+            color: white;
+        }
+        a{
+            color: white;
+        }
+    }
+    &__menu{
+        font-family: $satoshi, sans-serif;
+        padding: 24px 0;
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            input{
+                width: 577px;
+                height: 48px;
+                background: #f0f0f0;
+                border: none;
+                border-radius: 15px;
+                outline: none;
+            }
+        }
+    }
+    &__lists{
+        display: flex;
+        align-items: center;
+        column-gap: 24px;
+    }
+}
