@@ -1,0 +1,8 @@
+@import '../../global/style.scss';
+.brands{
+    display: flex;
+    justify-content: space-around;
+    background: $bg;
+    padding: 44px 0;
+    margin-top: -8px;
+}
